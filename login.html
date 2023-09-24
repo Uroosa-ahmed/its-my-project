@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Attendance Portal - Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Attendance</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="signout.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <form id ="signin-form">
+        <h1>LOGIN</h1>
+    <input type="email" id="email" required placeholder="ENTER EMAIL"><br><br>
+    <input type="text" required id="password" placeholder="ENTER PASSWORD"><br><br>
+    <p>dont have an account? <a href="./index.html">Signup</a></p><br>
+    <button id="login-btn">LOGIN</button>
+</form>
+
+
+<div class="spinner-overlay">
+    <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+
+<script type="module" src="configue.js"></script>
+<script type="module" src="login.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</html>
